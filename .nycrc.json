@@ -1,0 +1,36 @@
+{
+    "cache": false,
+    "check-coverage": true,
+    "extension": [
+        ".ts"
+    ],
+    "include": [
+        "src/griit.ts"
+    ],
+    "reporter": [
+        "cobertura",
+        "text-summary"
+    ],
+    "statements": 40,
+    "branches": 0,
+    "functions": 90,
+    "lines": 0,
+    "watermarks": {
+        "statements": [
+            30,
+            40
+        ],
+        "branches": [
+            5,
+            15
+        ],
+        "functions": [
+            80,
+            95
+        ],
+        "lines": [
+            20,
+            40
+        ]
+    }
+}
