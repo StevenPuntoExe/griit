@@ -1,6 +1,6 @@
 # griit
 
-> Random generator of Italian identities for testing purposes
+> git sta
 
 ## Overview
 
@@ -41,16 +41,15 @@ And this is the output:
 
 ```json
 {
-    "cognome": "Marino",
-    "nome": "Giulia",
+    "cognome": "Greco",
+    "nome": "Ginevra",
     "sesso": "F",
-    "comune": "TO",
-    "giornoDiNascita": 15,
+    "giornoDiNascita": 22,
     "meseDiNascita": 11,
-    "annoDiNascita": "78",
-    "comuneDiNascita": "VALLO",
-    "provinciaDiNascita": "TO",
-    "codiceFiscale": "MRNGLI78S55L629V"
+    "annoDiNascita": "86",
+    "comuneDiNascita": "GIOIOSA MAREA",
+    "provinciaDiNascita": "ME",
+    "codiceFiscale": "GRCGVR86S62E043E"
 }
 ```
 
