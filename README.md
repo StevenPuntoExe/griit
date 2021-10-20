@@ -1,6 +1,6 @@
 # griit
 
-> git sta
+> Random generator of Italian identities for testing purposes
 
 ## Overview
 
