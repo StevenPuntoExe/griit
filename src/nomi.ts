@@ -20,5 +20,6 @@ export const nomi = [
     { nome: 'Emma', sesso: 'F' },
     { nome: 'Giorgia', sesso: 'F' },
     { nome: 'Greta', sesso: 'F' },
-    { nome: 'Angela', sesso: 'F' }
+    { nome: 'Angela', sesso: 'F' },
+    { nome: 'Marika', sesso: 'F' }
 ];
