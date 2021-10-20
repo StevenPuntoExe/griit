@@ -10,6 +10,7 @@ export const nomi = [
     { nome: 'Mattia', sesso: 'M' },
     { nome: 'Gabriele', sesso: 'M' },
     { nome: 'Tommaso', sesso: 'M' },
+    { nome: 'Daniele', sesso: 'M' },
     // Femmine
     { nome: 'Sofia', sesso: 'F' },
     { nome: 'Giulia', sesso: 'F' },
