@@ -2,6 +2,8 @@
   "name": "griit",
   "version": "1.0.0",
   "description": "generatore random di identità italiane a scopo di test",
+  "author": "steven.exe",
+  "license": "ISC",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -12,7 +14,7 @@
   "scripts": {
     "build": "tsc",
     "impacchetta": "npm pack",
-    "copiaLocale": "move griit-%npm_package_version%.tgz ..\\..\\Unimatica\\UniservFrontend\\localComponents\\griit-%npm_package_version%.tgz",
+    "copiaLocale": "move griit-%npm_package_version%.tgz ..\\localPackages\\griit-%npm_package_version%.tgz",
     "releaseLocale": "npm run build && npm run impacchetta && npm run copiaLocale",
     "test": "ts-mocha tests/**/*.test.ts",
     "coverage": "nyc npm run test"
@@ -22,8 +24,14 @@
     "ids",
     "codice fiscale"
   ],
-  "author": "sdi",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steven-exe/griit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/steven-exe/griit/issues"
+  },
+  "homepage": "https://github.com/steven-exe/griit#readme",
   "devDependencies": {
     "@types/chai": "^4.2.22",
     "@types/mocha": "^9.0.0",
