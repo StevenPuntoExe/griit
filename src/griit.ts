@@ -15,7 +15,7 @@ export class Griit {
         // Anno di nascita
         const annoDiNascitaRandom: number = Math.floor(Math.random() * 100);
         const meseDiNascitaRandom: number = Math.floor(Math.random() * 12) + 1;
-        const giornoDiNascitaRandom: number = Math.floor(Math.random() * 28);
+        const giornoDiNascitaRandom: number = Math.floor(Math.random() * 28) + 1;
 
         // Comune di nascita (Bologna = 1205)
         const indexComuneRandom: number = Math.floor(Math.random() * comuni.length);
